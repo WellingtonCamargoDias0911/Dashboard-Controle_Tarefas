@@ -2,10 +2,6 @@
 
 Este é um projeto de **Dashboard de Controle de Tarefas** desenvolvido com HTML e CSS. A proposta é oferecer uma interface limpa, responsiva e intuitiva para organização de tarefas e acompanhamento de produtividade.
 
-## 📸 Demonstração
-
-![Screenshot](./assets/img/img_dashboard.png)
-
 ## 🖼️ Visão Geral
 
 A interface é composta por:
@@ -33,7 +29,7 @@ TaskMaster/
 
 ## 📸 Preview
 
-<img src="./assets/img/img_dashboard.png" alt="Preview do Dashboard">
+<img src="assets/img/img_dashboard.png" alt="Preview do Dashboard">
 
 > 🔧 Imagem de exemplo (substitua pelo seu print no futuro)
 
