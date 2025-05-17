@@ -31,8 +31,6 @@ TaskMaster/
 
 <img src="img/img_dashboard.png" alt="Preview do Dashboard">
 
-> 🔧 Imagem de exemplo (substitua pelo seu print no futuro)
-
 ## 🛠️ Funcionalidades (Frontend)
 
 - Interface estática com estrutura de painel administrativo
