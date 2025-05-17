@@ -29,7 +29,7 @@ TaskMaster/
 
 ## 📸 Preview
 
-<img src="assets/img/img_dashboard.png" alt="Preview do Dashboard">
+![Screenshot](assets/img/img_dashboard.png)
 
 > 🔧 Imagem de exemplo (substitua pelo seu print no futuro)
 
