@@ -33,7 +33,7 @@ TaskMaster/
 
 ## 📸 Preview
 
-<img src="https://via.placeholder.com/800x400.png?text=Preview+do+Dashboard" alt="Preview do Dashboard">
+<img src="./assets/img/img_dashboard.png" alt="Preview do Dashboard">
 
 > 🔧 Imagem de exemplo (substitua pelo seu print no futuro)
 
