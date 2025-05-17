@@ -1,0 +1,221 @@
+/* Importando fonte */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+:root {
+  --color-background: #f0f2f5;
+  --color-sidebar: #4caf50;
+  --color-box-shadow: rgba(0, 0, 0, 0.1);
+  --color-progress-bar: #e0e0e0;
+  --color-hover: #388e3c;
+
+  --color-button: #ffc107;
+  --color-button-hover: #ffa000;
+
+  --color-title: #333333;
+  --color-paragraph: #666666;
+
+  --color-white: #ffffff;
+  --color-grey: #333333;
+}
+
+/* Estilos Gerais */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-background);
+  color: #333;
+  display: flex;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--color-title);
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Menu Lateral Fixo */
+.menu-lateral {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 100vh;
+  background-color: var(--color-sidebar);
+  padding: 20px;
+  box-shadow: 2px 0 5px var(--color-box-shadow);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+.menu-lateral h2 {
+  color: var(--color-white);
+  margin-bottom: 30px;
+}
+
+.menu-lateral ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.menu-lateral li {
+  margin-bottom: 15px;
+}
+
+.menu-lateral a {
+  color: var(--color-white);
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background 0.3s;
+  display: block;
+  text-align: center;
+}
+
+.menu-lateral a:hover {
+  background-color: var(--color-hover);
+}
+
+/* Conteúdo Principal */
+.content {
+  margin-left: 260px;
+  padding: 20px;
+  width: calc(100% - 260px);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.header p {
+  color: var(--color-paragraph);
+  font-size: 18px;
+}
+
+/* Seção de Visão Geral */
+.overview {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.overview-card {
+  background-color: var(--color-white);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px var(--color-box-shadow);
+  text-align: center;
+  flex: 1;
+}
+
+.overview-card h3 {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+/* Seção de Tarefas */
+.tasks {
+  margin-bottom: 40px;
+}
+
+.task-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.task-card {
+  background-color: var(--color-white);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px var(--color-box-shadow);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.complete-btn {
+  margin-top: 10px;
+  background-color: var(--color-sidebar);
+  color: var(--color-white);
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.complete-btn:hover {
+  background-color: var(--color-hover);
+}
+
+/* Seção de Progresso */
+.progress {
+  margin-bottom: 40px;
+}
+
+.progress-bar-container {
+  background-color: var(--color-progress-bar);
+  border-radius: 20px;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background-color: var(--color-sidebar);
+  height: 20px;
+  border-radius: 20px;
+  transition: width 0.5s;
+}
+
+/* Seção de Configurações */
+.settings {
+  text-align: center;
+}
+
+.settings-btn {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  background-color: var(--color-button);
+  color: var(--color-grey);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.settings-btn:hover {
+  background-color: var(--color-button-hover);
+  color: var(--color-white);
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: var(--color-title);
+  color: var(--color-white);
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
